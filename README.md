@@ -5,12 +5,12 @@
 #	What it does
 يقدم المساعدة للحاج اثناء تواجده في المشاعر المقدسة لتوجيه نحو المكان الصحيح والسليم
 ## How we built it
-Android Studio
-Google Maps API
-Java
-Adobe Photoshop
-Google material design online guide
-QR library from Xing
+Android Studio<br>
+Google Maps API<br>
+Java<br>
+Adobe Photoshop<br>
+Google material design online guide <br>
+QR library from Xing <br>
 ##	Challenges we ran into
 كتابة الأكواد مع ربطها في قاعدة البيانات
 ## Accomplishments that we're proud of
