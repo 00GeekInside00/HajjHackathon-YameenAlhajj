@@ -1,4 +1,4 @@
-# HajjHackathon-YameenAlhajj
+# HajjHackathon-YameenAlhajj v0.0.1
 
 ## Inspiration
 تكامل الحجاج مع بعضهم البعض
@@ -20,12 +20,12 @@ QR library from Xing <br>
 ## What's next for A-054- يمين الحاج
 تطوير البرنامج ليتسع أكبر قدر ممكن من الخدمات
 التوسع في انواع المستخدمين ليشمل
-<li>
-  <ul>المسعف -فرد الكشافه</ul>
-  <ul>المسؤول</ul>
-  <ul>الحاج</ul>
-  <ul>مشرف حملة الحج</ul>
-</li>
+<ul>
+  <li>المسعف -فرد الكشافه</li>
+  <li>المسؤول</li>
+  <li>الحاج</li>
+  <li>مشرف حملة الحج</li>
+</ul>
 <br>
 تصميم قاعدة بيانات فعالة مبنية على <br>Google Firebase
 ## A project description
