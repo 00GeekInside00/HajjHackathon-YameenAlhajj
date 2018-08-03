@@ -8,6 +8,7 @@
 ## How we built it
 Android Studio<br>
 Google Maps API<br>
+Google Firebase<br>
 Java<br>
 Adobe Photoshop<br>
 Google material design online guide <br>
