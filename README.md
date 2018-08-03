@@ -1,3 +1,4 @@
+<direction="rtl">
 # HajjHackathon-YameenAlhajj v0.0.1
 
 ## Inspiration
