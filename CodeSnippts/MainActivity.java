@@ -59,10 +59,7 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -87,7 +84,8 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
-
+            Intent i= new Intent(MainActivity.this, ViewWeb.class);
+            startActivity(i);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -97,4 +95,18 @@ public class MainActivity extends AppCompatActivity
         Intent i= new Intent(MainActivity.this, QR.class);
         startActivity(i);
     }
+    public void clickEvent(View veiw){
+        Intent i= new Intent(MainActivity.this, ViewWeb.class);
+        startActivity(i);
+    }
+    public void clickMap(View veiw){
+        Intent i= new Intent(MainActivity.this, Maps.class);
+        startActivity(i);
+    }
+
+    public void clickHelp(View veiw){
+        Intent i= new Intent(MainActivity.this, CallForHelp.class);
+        startActivity(i);
+    }
+
 }

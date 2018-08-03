@@ -1,4 +1,5 @@
 package com.hajj.al.yamen;
+import android.annotation.SuppressLint;
 import android.app.Activity;
         import android.content.Intent;
         import android.os.Bundle;
@@ -18,7 +19,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         ImageView imageView =(ImageView)findViewById(R.id.splashicon);
-        Animation animation= AnimationUtils.loadAnimation(getApplicationContext(),R.animator.animtion);
+        @SuppressLint("ResourceType") Animation animation= AnimationUtils.loadAnimation(getApplicationContext(),R.animator.animtion);
         imageView.setAnimation(animation);
 
         new Handler().postDelayed(new Runnable() {
